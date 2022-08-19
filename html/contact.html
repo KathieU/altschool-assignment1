@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <header class="box1">
+        <h1>Catherine Imaobong Udoh</h1>
+        <nav>
+        <ul class="nav_links">
+            <li><a href="../page.html">About Me</a></li>
+            <li><a href="contact.html">Contact me</a></li>
+            <li><a href="register.html">Register</a></li>
+            <li><a href="login.html">Login</a></li>
+        </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+    <form action="" method="post">
+        <div>
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" class="name" required>
+        </div>
+
+        <div>
+            <label for="email">Email address</label>
+            <input type="email" name="email" id="email" class="email" required>
+        </div>
+
+        <div>
+            <label for="message">Message</label>
+            <input type="text" name="message" id="message" class="message" required>
+        </div>
+
+        <div>
+            <label for="priority">Priority</label>
+            <select name="priority" required>
+                <option value="critical">Critical</option>
+                <option value="important">Important</option>
+                <option value="normal">Normal</option>
+                <option value="low">Low</option>
+            </select>
+        </div>
+
+        <button type="submit">Submit</button>
+
+    </form>
+</main>
+
+<footer style="margin-top:190px ;">
+    Copyright &copy; 2022. Catherine. All rights reserved.
+</footer>
+
+</body>
+</html>
